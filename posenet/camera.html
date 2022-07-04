@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ROS Pose Software</title>
+    <style>
+    .dg {
+        display: none;
+    }
+
+    .dg + div {
+        display: none;
+    }
+
+    canvas {
+        border-radius: 20px;
+    }
+
+    html {
+        background: lightgrey;
+        font-family: sans-serif;
+    }
+
+    #main {
+        position: absolute;
+        top: 26%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .instructions {
+        position: absolute;
+        height: 22%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div id="info" style='display:none'>
+    </div>
+    <div id="loading">
+    </div>
+
+    <div id='main' style='display:none'>
+        <video id="video" playsinline style=" -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        display: none;
+        ">
+        </video>
+        <canvas id="output" />
+    </div>
+    <img class='instructions' src='Instructions.png' />
+    <script src="camera.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+web: json-server --watch db.json --static dist --port $PORT --host 0.0.0.0

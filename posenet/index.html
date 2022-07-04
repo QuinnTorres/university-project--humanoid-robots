@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ROS Pose Software</title>
+    <style>
+      .run-link {
+        text-decoration: none;
+      }
+
+      html,
+      body {
+        height: 100%;
+      }
+
+      html {
+        background: lightgrey;
+      }
+
+      .run-button {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 50%;
+        height: 30%;
+        transform: translateX(-50%) translateY(-50%);
+        border-radius: 20px;
+        background: whitesmoke;
+        font-size: 4rem;
+        transition: all 0.3s ease 0s;
+      }
+
+      .run-button:hover {
+        background: #b3b3b3;
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+      }
+
+      .run-link {
+        color: darkslategrey;
+      }
+    </style>
+  </head>
+  <body>
+    <a class='run-link' href='camera.html'>
+      <button class='run-button'>  
+        Run ROS Pose Software
+      </button>
+    </a>
+  </body>
+</html>
