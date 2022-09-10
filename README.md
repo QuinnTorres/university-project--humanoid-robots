@@ -1,4 +1,4 @@
-# Humanoid Project - Using PoseNet for 14-Point Control of a Fetch Robot in a Gazebo Simulation
+# Humanoid Robots Project - Using PoseNet for 14-Point Control of a Fetch Robot in a Gazebo Simulation
 
 ## Overview
 
